@@ -108,3 +108,25 @@
 	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
 	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
 2024-08-05 20:21:58.729 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-05 20:22:21.248 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-08-05 20:22:22.493 [error] Error: No such branch: main.
+	at N.getBranch (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:941421)
+2024-08-05 20:23:10.397 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-08-05 20:26:23.894 [error] Error: spawn git ENOENT
+	at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:903727)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:292:12)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-05 20:26:23.895 [error] Error: spawn git ENOENT
+	at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/extensions/git/dist/main.js:2:903727)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:292:12)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

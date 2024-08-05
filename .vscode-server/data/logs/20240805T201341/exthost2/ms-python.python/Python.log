@@ -48,3 +48,4 @@
 2024-08-05 20:14:07.062 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dag.py
 2024-08-05 20:14:18.704 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dag.py
 2024-08-05 20:14:24.135 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dag.py
+2024-08-05 20:29:32.319 [info] Discover tests for workspace name: undefined - uri: /Users/hanithatluri/Desktop/weather/weather_dag.py

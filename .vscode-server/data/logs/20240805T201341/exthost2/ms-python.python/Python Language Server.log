@@ -39,3 +39,20 @@
 2024-08-05 20:14:55.458 [info] [Info  - 8:14:55 PM] (2552) Indexing finished(3).
 2024-08-05 20:14:57.745 [info] [Info  - 8:14:57 PM] (2552) [BG(1)] Long operation: checking: file:///home/ubuntu/airflow/dags/weather_dag.py (4097ms)
 2024-08-05 20:14:57.768 [info] [Info  - 8:14:57 PM] (2552) [BG(1)] Long operation: analyzing: file:///home/ubuntu/airflow/dags/weather_dag.py (4227ms)
+2024-08-05 20:27:55.360 [info] [Info  - 8:27:55 PM] (2552) Setting pythonPath for service "ubuntu": "/home/ubuntu/airflow_venv/bin/python"
+2024-08-05 20:27:55.361 [info] [Info  - 8:27:55 PM] (2552) Setting environmentName for service "ubuntu": "3.12.3 (airflow_venv venv)"
+2024-08-05 20:27:55.361 [info] [Info  - 8:27:55 PM] (2552) No include entries specified; assuming /home/ubuntu
+2024-08-05 20:27:55.362 [info] [Info  - 8:27:55 PM] (2552) Auto-excluding **/node_modules
+2024-08-05 20:27:55.362 [info] [Info  - 8:27:55 PM] (2552) Auto-excluding **/__pycache__
+2024-08-05 20:27:55.364 [info] [Info  - 8:27:55 PM] (2552) Auto-excluding **/.*
+2024-08-05 20:27:55.407 [info] [Info  - 8:27:55 PM] (2552) Assuming Python version 3.12.3.final.0
+2024-08-05 20:27:55.525 [info] [Info  - 8:27:55 PM] (2552) Auto-excluding /home/ubuntu/airflow_venv
+2024-08-05 20:27:55.525 [info] [Info  - 8:27:55 PM] (2552) Auto-excluding /home/ubuntu/myenv
+2024-08-05 20:27:55.537 [info] [Info  - 8:27:55 PM] (2552) Found 2 source files
+2024-08-05 20:27:56.964 [info] [Info  - 8:27:56 PM] (2552) Indexer background runner(4) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist (index)
+2024-08-05 20:27:56.966 [info] [Info  - 8:27:56 PM] (2552) Indexing(4) started
+2024-08-05 20:27:58.615 [info] [Info  - 8:27:58 PM] (2552) scanned(4) 156 files over 1 exec env
+2024-08-05 20:27:59.620 [info] [Info  - 8:27:59 PM] (2552) indexed(4) 128 files over 1 exec env
+2024-08-05 20:27:59.812 [info] [Info  - 8:27:59 PM] (2552) Indexing finished(4).
+2024-08-05 20:28:02.384 [info] [Info  - 8:28:02 PM] (2552) [BG(1)] Long operation: checking: file:///home/ubuntu/airflow/dags/weather_dag.py (6154ms)
+2024-08-05 20:28:02.384 [info] [Info  - 8:28:02 PM] (2552) [BG(1)] Long operation: analyzing: file:///home/ubuntu/airflow/dags/weather_dag.py (6635ms)

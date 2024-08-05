@@ -1,0 +1,48 @@
+2024-08-05 15:46:31.940 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.12.1)
+2024-08-05 15:46:32.630 [info] [Info  - 3:46:32 PM] (20469) Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-08-05 15:46:32.631 [info] [Info  - 3:46:32 PM] (20469) Experimental Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-08-05 15:46:32.631 [info] [Info  - 3:46:32 PM] (20469) Starting service instance "ubuntu"
+2024-08-05 15:46:32.709 [info] [Info  - 3:46:32 PM] (20469) Setting pythonPath for service "ubuntu": "/home/ubuntu/airflow_venv/bin/python"
+2024-08-05 15:46:32.710 [info] [Info  - 3:46:32 PM] (20469) Setting environmentName for service "ubuntu": "3.12.3 (airflow_venv venv)"
+2024-08-05 15:46:32.712 [info] [Info  - 3:46:32 PM] (20469) No include entries specified; assuming /home/ubuntu
+2024-08-05 15:46:32.714 [info] [Info  - 3:46:32 PM] (20469) Auto-excluding **/node_modules
+2024-08-05 15:46:32.716 [info] [Info  - 3:46:32 PM] (20469) Auto-excluding **/__pycache__
+2024-08-05 15:46:32.716 [info] [Info  - 3:46:32 PM] (20469) Auto-excluding **/.*
+2024-08-05 15:46:32.789 [info] [Info  - 3:46:32 PM] (20469) Assuming Python version 3.12.3.final.0
+2024-08-05 15:46:33.139 [info] [Info  - 3:46:33 PM] (20469) Auto-excluding /home/ubuntu/airflow_venv
+2024-08-05 15:46:33.139 [info] [Info  - 3:46:33 PM] (20469) Auto-excluding /home/ubuntu/myenv
+2024-08-05 15:46:33.147 [info] [Info  - 3:46:33 PM] (20469) Found 2 source files
+2024-08-05 15:46:34.128 [info] [Info  - 3:46:34 PM] (20469) Background analysis(1) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-08-05 15:46:34.128 [info] [Info  - 3:46:34 PM] (20469) Background analysis(1) started
+2024-08-05 15:46:34.637 [info] [Info  - 3:46:34 PM] (20469) Indexer background runner(2) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist (index)
+2024-08-05 15:46:34.637 [info] [Info  - 3:46:34 PM] (20469) Indexing(2) started
+2024-08-05 15:46:36.853 [info] [Info  - 3:46:36 PM] (20469) scanned(2) 153 files over 1 exec env
+2024-08-05 15:46:42.328 [info] [Info  - 3:46:42 PM] (20469) [IDX(2)] Long operation: index execution environment file:///home/ubuntu (4491ms)
+2024-08-05 15:46:42.429 [info] [Info  - 3:46:42 PM] (20469) [IDX(2)] Long operation: index packages file:///home/ubuntu (4650ms)
+2024-08-05 15:46:42.429 [info] [Info  - 3:46:42 PM] (20469) indexed(2) 126 files over 1 exec env
+2024-08-05 15:46:42.627 [info] [Info  - 3:46:42 PM] (20469) Indexing finished(2).
+2024-08-05 15:46:44.228 [info] [Info  - 3:46:44 PM] (20469) [BG(1)] Long operation: checking: file:///home/ubuntu/airflow/dags/weather_dag.py (9413ms)
+2024-08-05 15:46:44.229 [info] [Info  - 3:46:44 PM] (20469) [BG(1)] Long operation: analyzing: file:///home/ubuntu/airflow/dags/weather_dag.py (10028ms)
+2024-08-05 16:35:12.620 [info] [Info  - 4:35:12 PM] (20469) Auto-excluding /home/ubuntu/airflow_venv
+2024-08-05 16:35:12.620 [info] [Info  - 4:35:12 PM] (20469) Auto-excluding /home/ubuntu/myenv
+2024-08-05 16:35:12.665 [info] [Info  - 4:35:12 PM] (20469) Found 2 source files
+2024-08-05 16:35:12.758 [info] [Info  - 4:35:12 PM] (20469) Auto-excluding /home/ubuntu/airflow_venv
+2024-08-05 16:35:12.760 [info] [Info  - 4:35:12 PM] (20469) Auto-excluding /home/ubuntu/myenv
+2024-08-05 16:35:12.775 [info] [Info  - 4:35:12 PM] (20469) Found 2 source files
+2024-08-05 16:35:13.542 [info] [Info  - 4:35:13 PM] (20469) Auto-excluding /home/ubuntu/airflow_venv
+2024-08-05 16:35:13.542 [info] [Info  - 4:35:13 PM] (20469) Auto-excluding /home/ubuntu/myenv
+2024-08-05 16:35:13.571 [info] [Info  - 4:35:13 PM] (20469) Found 2 source files
+2024-08-05 16:35:16.753 [info] [Info  - 4:35:16 PM] (20469) [BG(1)] Long operation: checking: file:///home/ubuntu/airflow/dags/weather_dag.py (2797ms)
+2024-08-05 16:35:16.753 [info] [Info  - 4:35:16 PM] (20469) [BG(1)] Long operation: analyzing: file:///home/ubuntu/airflow/dags/weather_dag.py (3025ms)
+2024-08-05 16:35:16.782 [info] [Info  - 4:35:16 PM] (20469) Auto-excluding /home/ubuntu/airflow_venv
+2024-08-05 16:35:16.783 [info] [Info  - 4:35:16 PM] (20469) Auto-excluding /home/ubuntu/myenv
+2024-08-05 16:35:16.801 [info] [Info  - 4:35:16 PM] (20469) Found 2 source files
+2024-08-05 16:35:20.541 [info] [Info  - 4:35:20 PM] (20469) [BG(1)] Long operation: checking: file:///home/ubuntu/airflow/dags/weather_dag.py (3558ms)
+2024-08-05 16:35:20.542 [info] [Info  - 4:35:20 PM] (20469) [BG(1)] Long operation: analyzing: file:///home/ubuntu/airflow/dags/weather_dag.py (3709ms)
+2024-08-05 16:35:23.187 [info] [Info  - 4:35:23 PM] (20469) Indexer background runner(3) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist (refresh)
+2024-08-05 16:35:23.187 [info] [Info  - 4:35:23 PM] (20469) Indexing(3) started
+2024-08-05 16:35:24.707 [info] [Info  - 4:35:24 PM] (20469) scanned(3) 156 files over 1 exec env
+2024-08-05 16:35:25.865 [info] [Info  - 4:35:25 PM] (20469) indexed(3) 128 files over 1 exec env
+2024-08-05 16:35:26.004 [info] [Info  - 4:35:26 PM] (20469) Indexing finished(3).
+2024-08-05 16:35:26.929 [info] [Info  - 4:35:26 PM] (20469) [BG(1)] Long operation: checking: file:///home/ubuntu/airflow/dags/weather_dag.py (4388ms)
+2024-08-05 16:35:26.929 [info] [Info  - 4:35:26 PM] (20469) [BG(1)] Long operation: analyzing: file:///home/ubuntu/airflow/dags/weather_dag.py (4475ms)

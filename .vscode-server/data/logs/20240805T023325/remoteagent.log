@@ -1,0 +1,78 @@
+2024-08-05 02:33:25.759 [info] 
+
+
+
+
+2024-08-05 02:33:25.774 [info] Extension host agent started.
+2024-08-05 02:33:25.827 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2024-08-05 02:33:25.843 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2024-08-05 02:33:25.871 [info] [<unknown>][f06e7a25][ExtensionHostConnection] New connection established.
+2024-08-05 02:33:25.905 [info] [<unknown>][f96c6287][ManagementConnection] New connection established.
+2024-08-05 02:33:25.952 [info] [<unknown>][f06e7a25][ExtensionHostConnection] <6090> Launched Extension Host Process.
+2024-08-05 02:33:34.591 [info] [<unknown>][c5be280e][ExtensionHostConnection] New connection established.
+2024-08-05 02:33:34.595 [info] [<unknown>][c5be280e][ExtensionHostConnection] <6144> Launched Extension Host Process.
+2024-08-05 02:33:34.622 [info] [<unknown>][adf8ae86][ManagementConnection] New connection established.
+2024-08-05 02:34:03.306 [info] [<unknown>][f96c6287][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 02:34:45.419 [info] Getting Manifest... ms-python.python
+2024-08-05 02:34:45.521 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:45.634Z"}}
+2024-08-05 02:34:45.719 [info] Getting Manifest... ms-python.vscode-pylance
+2024-08-05 02:34:45.743 [info] Getting Manifest... ms-python.debugpy
+2024-08-05 02:34:45.772 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:45.634Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-08-05 02:34:45.773 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:45.634Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-08-05 02:34:48.984 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 2686ms.
+2024-08-05 02:34:49.067 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 2779ms.
+2024-08-05 02:34:50.626 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-08-05 02:34:50.635 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-08-05 02:34:51.032 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 2542ms.
+2024-08-05 02:34:52.974 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64: ms-python.python
+2024-08-05 02:34:52.984 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64
+2024-08-05 02:34:59.468 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1: ms-python.vscode-pylance
+2024-08-05 02:34:59.482 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1
+2024-08-05 02:34:59.526 [info] Extension installed successfully: ms-python.debugpy file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2024-08-05 02:34:59.527 [info] Extension installed successfully: ms-python.python file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2024-08-05 02:34:59.529 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2024-08-05 02:38:25.775 [info] New EH opened, aborting shutdown
+2024-08-05 02:38:34.705 [info] [<unknown>][f06e7a25][ExtensionHostConnection] <6090> Extension Host Process exited with code: 0, signal: null.
+2024-08-05 03:43:36.437 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 03:56:27.967 [info] [<unknown>][f96c6287][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 03:56:27.968 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 03:56:27.969 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 03:56:27.979 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-b1c0a14de1414fcdaa400695b4db1c0799bc3124/server/out/vs/server/node/server.main.js:190:6369)
+    at process.emit (node:events:531:35)
+2024-08-05 03:56:28.001 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 04:01:28.175 [info] [<unknown>][f96c6287][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-08-05 04:14:31.925 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 04:19:05.034 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 04:19:05.034 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 04:19:05.063 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 04:36:30.836 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 05:24:55.858 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 05:24:55.859 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 05:24:55.889 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 05:45:31.896 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 06:28:35.420 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 06:28:35.421 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 06:29:10.441 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 06:46:21.429 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 08:40:29.927 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 08:40:29.928 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 08:40:29.966 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 08:58:27.192 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 09:47:00.552 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 09:47:00.553 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 09:47:00.583 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 10:04:15.732 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 10:22:49.853 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 10:22:49.853 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 10:23:25.140 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 10:40:42.997 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 12:23:49.686 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 12:23:49.687 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 12:23:49.716 [info] [<unknown>][c5be280e][ExtensionHostConnection] The client has reconnected.
+2024-08-05 12:41:53.398 [info] [<unknown>][adf8ae86][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-05 13:25:16.957 [info] [<unknown>][adf8ae86][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-08-05 13:25:16.958 [info] [<unknown>][adf8ae86][ManagementConnection] The client has reconnected.
+2024-08-05 13:30:17.395 [info] [<unknown>][c5be280e][ExtensionHostConnection] <6144> Extension Host Process exited with code: 0, signal: null.
+2024-08-05 13:30:17.396 [info] Last EH closed, waiting before shutting down
+2024-08-05 13:35:17.397 [info] Last EH closed, shutting down

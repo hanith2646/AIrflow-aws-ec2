@@ -1,0 +1,46 @@
+2024-08-05 15:46:30.005 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-05 15:46:30.005 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-05 15:46:30.005 [info] Experiment 'pythonSurveyNotification' is active
+2024-08-05 15:46:30.005 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-05 15:46:30.005 [info] Experiment 'pythonTestAdapter' is active
+2024-08-05 15:46:30.005 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/ubuntu/.pixi/envs'
+	at Object.readdirSync (node:fs:1507:26)
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/out/client/extension.js:2:586747
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/ubuntu/.pixi/envs'
+}
+2024-08-05 15:46:30.005 [error] Dir "/home/ubuntu/.pixi/envs" is not watchable (directory does not exist)
+2024-08-05 15:46:30.080 [info] Default formatter is set to null for workspace /home/ubuntu
+2024-08-05 15:46:30.743 [info] Python interpreter path: ./airflow_venv/bin/python
+2024-08-05 15:46:31.164 [info] > pyenv which python
+2024-08-05 15:46:31.164 [info] cwd: .
+2024-08-05 15:46:31.306 [info] > pixi --version
+2024-08-05 15:46:31.308 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-05 15:46:31.308 [warning] could not find a pixi interpreter for the interpreter at /home/ubuntu/airflow_venv/bin/python
+2024-08-05 15:46:31.409 [info] > . ./airflow_venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/python_files/printEnvVariables.py
+2024-08-05 15:46:31.409 [info] shell: bash
+2024-08-05 15:46:31.451 [info] > /usr/bin/python3 ./.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/python_files/printEnvVariables.py
+2024-08-05 15:46:31.451 [info] shell: bash
+2024-08-05 15:46:31.496 [info] Setting environment variable VIRTUAL_ENV in collection to /home/ubuntu/airflow_venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-05 15:46:31.496 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (airflow_venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-05 15:46:31.496 [info] Prepending environment variable PS1 in collection with (airflow_venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-08-05 15:46:31.496 [info] Prepending environment variable PATH in collection with /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/python_files/deactivate/bash:/home/ubuntu/airflow_venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-05 15:46:31.497 [info] Send text to terminal: /usr/bin/python3 /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/python_files/printEnvVariablesToFile.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2024.12.1-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-08-05 15:46:32.676 [info] Starting Pylance language server.
+2024-08-05 16:40:05.443 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/airflow/dags/weather_dag.py

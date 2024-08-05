@@ -1,0 +1,191 @@
+2024-08-05 20:13:54.212 [info] [main] Log level: Info
+2024-08-05 20:13:54.212 [info] [main] Validating found git in: "git"
+2024-08-05 20:13:54.212 [info] [main] Using git "2.43.0" from "git"
+2024-08-05 20:13:54.212 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-05 20:13:54.212 [info] > git rev-parse --show-toplevel [98ms]
+2024-08-05 20:13:54.212 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.212 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-05 20:13:54.212 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.220 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-05 20:13:54.221 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.226 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-05 20:13:54.226 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.231 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-05 20:13:54.231 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.236 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-05 20:13:54.236 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.251 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-05 20:13:54.251 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.265 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-05 20:13:54.265 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.276 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-05 20:13:54.276 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.284 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-05 20:13:54.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.290 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-05 20:13:54.290 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.295 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-05 20:13:54.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:13:54.299 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-05 20:13:54.391 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-05 20:13:54.391 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-05 20:14:51.446 [info] > git init -b main [26ms]
+2024-08-05 20:14:51.451 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-05 20:14:51.456 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-05 20:14:51.470 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2024-08-05 20:14:51.488 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-05 20:14:51.490 [info] > git config --get commit.template [5ms]
+2024-08-05 20:14:51.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-05 20:14:51.492 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:14:51.907 [info] > git show --textconv :airflow/dags/weather_dag.py [12ms]
+2024-08-05 20:14:51.915 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [9ms]
+2024-08-05 20:14:52.046 [info] > git status -z -uall [549ms] (cancelled)
+2024-08-05 20:14:52.172 [info] > git check-ignore -v -z --stdin [26ms]
+2024-08-05 20:14:52.808 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [1ms]
+2024-08-05 20:14:52.887 [info] > git show --textconv :airflow/dags/weather_dag.py [5ms]
+2024-08-05 20:14:57.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1582ms]
+2024-08-05 20:14:57.746 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:14:57.769 [info] > git config --get commit.template [24ms]
+2024-08-05 20:14:57.788 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-05 20:14:57.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-08-05 20:14:57.797 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:14:58.223 [info] > git status -z -uall [419ms] (cancelled)
+2024-08-05 20:14:58.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+2024-08-05 20:14:58.224 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:14:59.930 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-05 20:16:07.514 [info] > git add -A -- . [76036ms]
+2024-08-05 20:16:08.954 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [11ms]
+2024-08-05 20:16:08.961 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [2ms]
+2024-08-05 20:16:09.011 [info] > git show --textconv :airflow/dags/weather_dag.py [11ms]
+2024-08-05 20:16:09.137 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [1619ms]
+2024-08-05 20:16:09.137 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-08-05 20:16:09.143 [info] > git config --get-all user.name [1ms]
+2024-08-05 20:16:09.148 [info] > git config --get commit.template [2ms]
+2024-08-05 20:16:09.152 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-05 20:16:09.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-05 20:16:09.153 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:16:09.537 [info] > git status -z -uall [381ms] (cancelled)
+2024-08-05 20:16:09.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [88ms]
+2024-08-05 20:16:09.537 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:16:11.517 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [13ms]
+2024-08-05 20:16:11.523 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [1ms]
+2024-08-05 20:16:11.573 [info] > git show --textconv :airflow/dags/weather_dag.py [13ms]
+2024-08-05 20:16:16.790 [info] > git -c user.useConfigOnly=true commit --quiet [156ms]
+2024-08-05 20:16:16.790 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-08-05 20:16:16.796 [info] > git config --get-all user.name [1ms]
+2024-08-05 20:16:16.805 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-05 20:16:16.806 [info] > git config --get commit.template [5ms]
+2024-08-05 20:16:16.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-05 20:16:16.806 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:16:17.150 [info] > git status -z -uall [340ms] (cancelled)
+2024-08-05 20:16:17.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2024-08-05 20:16:17.151 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:16:18.795 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [12ms]
+2024-08-05 20:16:18.801 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [1ms]
+2024-08-05 20:16:18.852 [info] > git show --textconv :airflow/dags/weather_dag.py [13ms]
+2024-08-05 20:18:44.018 [info] > git remote add hanithweater https://github.com/hanith2646/AIrflow-aws-ec2.git [5ms]
+2024-08-05 20:18:44.024 [info] > git config --get commit.template [2ms]
+2024-08-05 20:18:44.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-05 20:18:44.029 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:18:44.414 [info] > git status -z -uall [382ms] (cancelled)
+2024-08-05 20:18:44.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [91ms]
+2024-08-05 20:18:44.417 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:18:45.799 [info] > git fetch hanithweater [1395ms]
+2024-08-05 20:18:45.799 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2024-08-05 20:18:45.807 [info] > git config --get commit.template [0ms]
+2024-08-05 20:18:45.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-05 20:18:45.812 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:18:46.208 [info] > git status -z -uall [391ms] (cancelled)
+2024-08-05 20:18:46.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+2024-08-05 20:18:46.208 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:18:48.246 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [33ms]
+2024-08-05 20:18:48.255 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [5ms]
+2024-08-05 20:18:48.333 [info] > git show --textconv :airflow/dags/weather_dag.py [30ms]
+2024-08-05 20:19:34.772 [info] > git -c user.useConfigOnly=true commit --quiet [172ms]
+2024-08-05 20:19:34.772 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-08-05 20:19:34.779 [info] > git config --get-all user.name [1ms]
+2024-08-05 20:19:34.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-08-05 20:19:34.789 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:19:34.789 [info] > git config --get commit.template [5ms]
+2024-08-05 20:19:35.215 [info] > git status -z -uall [421ms] (cancelled)
+2024-08-05 20:19:35.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [84ms]
+2024-08-05 20:19:35.216 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:19:36.919 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [16ms]
+2024-08-05 20:19:36.925 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [1ms]
+2024-08-05 20:19:36.976 [info] > git show --textconv :airflow/dags/weather_dag.py [14ms]
+2024-08-05 20:19:41.708 [info] > git -c user.useConfigOnly=true commit --quiet [169ms]
+2024-08-05 20:19:41.708 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-08-05 20:19:41.713 [info] > git config --get-all user.name [1ms]
+2024-08-05 20:19:41.723 [info] > git config --get commit.template [5ms]
+2024-08-05 20:19:41.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-05 20:19:41.724 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:19:42.104 [info] > git status -z -uall [375ms] (cancelled)
+2024-08-05 20:19:42.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2024-08-05 20:19:42.104 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:19:43.491 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [14ms]
+2024-08-05 20:19:43.497 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [1ms]
+2024-08-05 20:19:43.558 [info] > git show --textconv :airflow/dags/weather_dag.py [13ms]
+2024-08-05 20:19:53.311 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [13ms]
+2024-08-05 20:19:53.315 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [0ms]
+2024-08-05 20:19:53.380 [info] > git show --textconv :airflow/dags/weather_dag.py [14ms]
+2024-08-05 20:21:51.415 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [13ms]
+2024-08-05 20:21:51.421 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [1ms]
+2024-08-05 20:21:51.482 [info] > git show --textconv :airflow/dags/weather_dag.py [14ms]
+2024-08-05 20:21:53.033 [info] > git config --get commit.template [4ms]
+2024-08-05 20:21:53.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-08-05 20:21:53.034 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:21:53.404 [info] > git status -z -uall [367ms] (cancelled)
+2024-08-05 20:21:53.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2024-08-05 20:21:53.404 [warning] [Git][getBranch] No such branch: main
+2024-08-05 20:21:57.107 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dag.py [13ms]
+2024-08-05 20:21:57.113 [info] > git cat-file -s fd9d96d3bb0fffd47d96d8fcb002e8d2d8fe004f [2ms]
+2024-08-05 20:21:57.182 [info] > git show --textconv :airflow/dags/weather_dag.py [14ms]
